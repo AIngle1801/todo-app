@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://Arjun:TestPass123@cluster0.dp4uq.mongodb.net/Todo');
+
+//url will be here 
 
 const UserTask = new mongoose.Schema({
     title:String,
